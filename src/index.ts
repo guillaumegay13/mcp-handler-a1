@@ -6,7 +6,7 @@ export { default as createMcpHandler } from "./handler";
  */
 export { withMcpAuth as experimental_withMcpAuth } from "./auth/auth-wrapper";
 
-export { withMcpAuth } from "./auth/auth-wrapper";
+export { withMcpAuth, type ToolScopeErrorData } from "./auth/auth-wrapper";
 
 export {
   protectedResourceHandler,
